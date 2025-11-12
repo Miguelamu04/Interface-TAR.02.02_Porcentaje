@@ -1,5 +1,5 @@
 body {
-    /* 1200px → 100% (base de cálculo) */
+    /* 1920px → 100% (base de cálculo) */
     width: 100%; 
     margin: 30px auto;
     font-family: Arial, sans-serif;
@@ -186,3 +186,4 @@ footer {
     text-align: center;
     line-height: 50px;
 }
+
