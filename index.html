@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Formulario - Revista Horizonte</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Revista Horizonte</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Formulario</a></li>
+            </ul>
+        </nav>
+    </header> 
+        <aside>
+        <img src="imagenes/logo.jpg" alt="logo">
+        <div id="info">
+            <h3>Información útil</h3>
+            <p><span>Revista Horizonte:</span> es una publicación digital enfocada en cultura, ciencia, medio ambiente y tendencias sociales. 
+            Fundada en 2010, busca inspirar a sus lectores con contenido de calidad y una mirada positiva hacia el futuro.</p>  
+        </div>
+        <h3 id="tituloMenuLateral">Menú lateral</h3>
+        <ul>
+            <li><a href="#">Acerca de</a></li>
+            <li><a href="#">Servicios</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </aside>
+    <main>
+        <section>
+            <h2>Formulario</h2>
+            <p>Completa este formulario para suscribirte gratuitamente a nuestra revista y recibir las novedades cada mes en tu correo electrónico. 
+            También podrás participar en sorteos, encuestas y actividades organizadas por nuestro equipo editorial.</p>
+            <form action="#" method="post">
+                <div class="campo">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="campo">
+                    <label for="surname">Apellidos:</label>
+                    <input type="text" id="surname" name="surname" required>
+                </div>
+                <div class="campo">
+                    <label for="option">Selecciona una opción:</label>
+                    <select id="option" name="option" required>
+                        <option value="">-- Selecciona una opción --</option>
+                        <option value="op1">Suscripción mensual</option>
+                        <option value="op2">Suscripción anual</option>
+                        <option value="op3">Recibir boletín de noticias</option>
+                        <option value="op4">Participar en encuestas</option>
+                    </select>
+                </div>
+                <div class="boton">
+                    <input type="submit" value="Enviar">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        Creado por Miguel Albenca
+    </footer>
+</body>
+</html>
