@@ -1,4 +1,5 @@
 body {
+    /* 1200px → 100% (base de cálculo) */
     width: 100%; 
     margin: 30px auto;
     font-family: Arial, sans-serif;
@@ -21,6 +22,7 @@ header h1 {
 }
 
 header nav {
+    /* 1200px → 100% */
     width: 100%;
     background-color: cadetblue;
     height: 40px;
@@ -36,6 +38,7 @@ header nav ul {
 }
 
 header nav ul li {
+    /* 100px de 1200px → (100/1200)*100 = 8.33% */
     display: inline-block; 
     width: 8.33%;
 }
@@ -53,6 +56,7 @@ header nav ul li a:hover {
 
 /* Aside */
 aside {
+    /* 300px de 1200px → (300/1200)*100 = 25% */
     width: 25%;
     height: 700px;
     float: left;
@@ -64,6 +68,7 @@ aside {
 }
 
 aside img {
+    /* 200px de 1200px → (200/1200)*100 = 16.66% */
     width: 16.66%;
     height: 80px;
     margin-left: 30px;
@@ -114,8 +119,9 @@ aside #info {
 
 /* Contenido principal */
 main {
+    /* 700px de 1200px → (700/1200)*100 = 58.33% */
     float: left;
-    margin: 80px 0 0 8.33%;
+    margin: 80px 0 0 8.33%; /* 100px margen izquierdo → (100/1200)*100 = 8.33% */
     width: 58.33%;
 }
 
@@ -127,6 +133,7 @@ main h2 {
 
 /* Formulario */
 form {
+    /* 500px de 1200px → (500/1200)*100 = 41.66% */
     background-color: white;
     border: 2px solid #ccc;
     padding: 20px;
@@ -146,7 +153,8 @@ label {
 }
 
 input[type="text"], select {
-    width: 90%;
+    /* 450px de 1200px → (450/1200)*100 = 37.5% */
+    width: 37.5%;
     border-radius: 5px;
     font-size: 14px;
     box-sizing: content-box;
@@ -169,6 +177,7 @@ input[type="submit"]:hover {
 }
 
 footer {
+    /* 1200px → 100% */
     height: 50px;
     width: 100%;
     background-color: rgb(67, 67, 67);
